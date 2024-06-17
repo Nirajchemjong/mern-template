@@ -63,29 +63,29 @@ This command uses concurrently to start both servers with one command.
 
 ## Project Structure
 
-- mern-template/
-  ─ backend/
-    ─ [config/]
-    ─ db.js
-    ─ controllers/
-    ─ models/
-    ─ routes/
-    ─ api.js
-    ─ server.js
-  ├── client/
-  │ ├── public/
-  │ ├── src/
-  │ │ ├── components/
-  │ │ │ └── ExampleComponent.js
-  │ │ ├── App.css
-  │ │ ├── App.js
-  │ │ ├── index.css
-  │ │ └── index.js
-  │ ├── package.json
-  ├── .env
-  ├── .gitignore
-  ├── package.json
-  └── nodemon.json
+mern-template/
+├── backend/
+│ ├── config/
+│ │ └── db.js
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ │ └── api.js
+│ └── server.js
+├── client/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ │ └── ExampleComponent.js
+│ │ ├── App.css
+│ │ ├── App.js
+│ │ ├── index.css
+│ │ └── index.js
+│ ├── package.json
+├── .env
+├── .gitignore
+├── package.json
+└── nodemon.json
 
 ## Environment Variables
 
