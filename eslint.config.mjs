@@ -17,7 +17,7 @@ export default [
       // Common rules
       indent: ["error", 2], // Enforce 2-space indentation
       semi: ["error", "always"], // Enforce semicolons
-      quotes: ["error", "single"], // Enforce single quotes
+      quotes: ["error", "double"], // Enforce single quotes
       "comma-dangle": ["error", "always-multiline"], // Enforce trailing commas where valid in ES5 (objects, arrays, etc.)
       "no-unused-vars": ["warn"], // Warn about unused variables
       "no-console": ["off"], // Allow console statements
