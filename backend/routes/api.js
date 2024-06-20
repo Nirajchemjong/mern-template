@@ -1,9 +1,9 @@
 const express = require("express");
-const router = express.Router();
+const testApi = express.Router();
 
 // Example route
-router.get("/", (req, res) => {
+testApi.get("/", (req, res) => {
   res.send("API Running");
 });
 
-module.exports = router;
+module.exports = testApi;
